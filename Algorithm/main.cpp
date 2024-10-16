@@ -8,4 +8,6 @@ int main()
 
 	BubbleExample();
 	SelectionExample();
+	InsertSortExample();
+	CountSort();
 }

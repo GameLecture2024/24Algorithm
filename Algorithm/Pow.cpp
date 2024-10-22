@@ -12,7 +12,7 @@ int Pow(int a, int b)
     }
     else
     {
-        return temp * temp * a;
+       return temp * temp * a;
     }
 
     return 0;

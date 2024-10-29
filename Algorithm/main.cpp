@@ -6,6 +6,8 @@
 #include "DivideAndConquer.h"
 #include "DynamicProgramming.h"
 #include "BackTracking.h"
+#include "array2D.h"
+#include "graph.h"
 
 int main()
 {
@@ -72,4 +74,9 @@ int main()
 	Permutation::Case01();
 	std::cout << "а╤гу" << endl;
 	Combine::Case02();
+
+	system("cls");
+	//Board::Case1();
+	Board::Case2();
+	Board::Case3();
 }

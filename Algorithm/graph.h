@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -45,5 +46,66 @@ namespace virus
 		DFS(1);
 
 		cout << count << '\n';
+	}
+}
+
+namespace GraphVec
+{
+	int n, m;
+
+	// n 세로의 갯수,  m 가로의 갯수
+
+	vector<vector<int>> graph;
+
+
+
+	void Print()
+	{
+		n = 6, m = 4;
+
+		graph = vector<vector<int>>(n);
+
+		// 입력
+
+		for (int i = 0; i < m; i++)  // i가 선의 갯수 만큼 입력값을 받아옵니다.
+		{								   
+			int a, b;
+			cin >> a >> b;
+
+			graph[a].push_back(b);
+			graph[b].push_back(a);
+		}
+
+		// 정렬
+
+		for (int i = 0; i < n; i++)
+		{
+			sort(graph[i].begin(), graph[i].end());
+		}
+
+		
+
+		// 출력
+
+		for (int i = 0; i < n; i++)
+		{
+			cout << "[" << i << "] : ";
+
+			for (int j = 0; j < m; j++)
+			{
+				// graph[i].연결된 데이터가 없을 때 접근할 방법이없다.
+				if (j < graph[i].size())
+				{
+					cout << graph[i][j] << ' ';
+				}
+				else
+				{
+					cout << "@";	    // 0 공백 숫자 1부터 시작,. 
+				}				
+			}
+			cout << '\n';
+		}
+
+
 	}
 }

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|solutionrelative:graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|solutionrelative:array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|solutionrelative:array2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12CB4D5F-7E8D-4521-823C-943405601AB0}|Algorithm.vcxproj|C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\BackTracking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -36,20 +36,20 @@
               "RelativeDocumentMoniker": "graph.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\graph.h",
               "RelativeToolTip": "graph.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAgAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-29T07:04:56.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "array2D.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\array2D.h",
               "RelativeDocumentMoniker": "array2D.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\array2D.h",
               "RelativeToolTip": "array2D.h",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAswGcAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-29T07:04:47.29Z",
               "EditorCaption": ""
@@ -64,18 +64,17 @@
               "RelativeToolTip": "BackTracking.h",
               "ViewState": "AQIAAGYAAAAAAAAAAAAgwG4AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-28T07:22:33.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T07:22:33.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\24Algorithm\\Algorithm\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAE4AAAADAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswE8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-28T07:22:31.727Z",
               "EditorCaption": ""

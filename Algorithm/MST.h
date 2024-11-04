@@ -6,6 +6,8 @@
 #include <vector>
 #include <algorithm>
 
+#define INF 9999
+
 using namespace std;
 
 namespace InputWeight
@@ -78,6 +80,45 @@ namespace InputWeight
 		{
 			cout << "Edge : (" << edge.first_node() << "," << edge.second_node() << "), weight :"
 				<< edge.getDistance() << endl;
+		}
+	}
+
+}
+
+namespace InputGraph
+{
+	// 그래프를 코드로 표현하는 방법
+
+	// 1. Matrix  2. 
+
+
+
+	void Show001()
+	{
+		int size = 7;
+
+		int graph[7][7] =
+		{
+			{ 0,   67,	INF, 28,  17,  INF, 12 },
+			{ 67,  0,	INF, 24,  62,  INF, INF},
+			{ INF, INF, 0,   INF, 20,  37,  INF},
+			{ 28,  24,  INF, 0,   INF, INF, 13 },
+			{ INF,  INF,  INF,  INF, 0,   INF,  INF },	// ★ // 데이터 수정
+			{ INF, INF, INF,  INF, INF,  0,   INF},		// ★ // 데이터 수정
+			{ INF,  INF,	INF, INF,  INF,  INF, 0  }  // ★ // 데이터 수정
+		};
+		
+
+		
+
+
+		for (int i = 0; i < 7; i++)
+		{
+			for (int j = 0; j < 7; j++)
+			{
+				cout << graph[i][j] << ' ';
+			}
+			cout << '\n';
 		}
 	}
 

@@ -148,6 +148,7 @@
     <ClInclude Include="MST.h" />
     <ClInclude Include="Pow.h" />
     <ClInclude Include="Problem.h" />
+    <ClInclude Include="Regular Expression.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="timeChecker.h" />
   </ItemGroup>
